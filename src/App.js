@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "remixicon/fonts/remixicon.css";
 
 import Login from "./components/Login";
 
