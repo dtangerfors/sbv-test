@@ -18,7 +18,6 @@ const PrimaryButton = ({ onClick, actionText, text }: any) => {
   
     return (
       <button
-        onClick={onClick}
         className="appearance-none bg-primary text-white text-headline uppercase tracking-widest py-6 px-16 leading-none rounded-full font-medium hover:bg-secondary transition-all ease-in-out duration-200"
       >
         <span className="sr-only">{actionText}</span>{" "}
